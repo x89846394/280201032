@@ -1,14 +1,9 @@
-x = float(input("What is your GPA? "))
-y = float(input("What is the number of lectures you take? "))
+a = 2.0
+b = 6.0
+c = -20.0
 
-if x < 2.0 and y < 47 :
-	print("Not enough number of lectures and GPA!")
+root_1 = (-b + (b ** 2 - (4 * a * c)) ** 0.5) / (2 * a)
+root_2 = (-b - (b ** 2 - (4 * a * c)) ** 0.5) / (2 * a)
 
-elif x < 2.0 and y >= 47 :
-	print("Not enough GPA!")
-
-elif x >= 2.0 and y < 47 :
-	print("Not enough number of lectures!")
-
-else :
-	print("GRADUATED!!!")
+print(root_1)
+print(root_2)

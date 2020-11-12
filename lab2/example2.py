@@ -1,12 +1,5 @@
-x = float(input("write one number. "))
-y = float(input("write another number. "))
-z = float(input("write third number. "))
+x = 1
+y = 4
+z = 0.25
 
-if x < y and x < z :
-	print(x)
-
-elif y < x and y < z :
-	print(y)
-
-else :
-	print(z)
+print(((2 * x + y) ** 2 * z ** 0.5) // (x ** 0.5 + y ** 0.5))

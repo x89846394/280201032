@@ -1,6 +1,6 @@
-num = input("write a number: ")
+x = float(input("Please write a number. "))
+if x <= 0 :
+	print(x * -1)
 
-if len(str(num)) >= 2:
-	print(int(num[-1]) + int(num[-2]))
 else:
-    print("0" + str(num))
+	print(x)

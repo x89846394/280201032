@@ -1,6 +1,4 @@
-x = float(input("Please write a number. "))
-if x <= 0 :
-	print(x * -1)
+animal = 10
+chicken = 6
 
-else:
-	print(x)
+print("There are", animal - chicken ,"roosters.")

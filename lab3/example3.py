@@ -1,7 +1,14 @@
-nums = [8, 60, 43, 55, 25, 134, 1]
+x = float(input("What is your GPA? "))
+y = float(input("What is the number of lectures you take? "))
 
-total = 0
-for number in nums:
-	total += number
+if x < 2.0 and y < 47 :
+	print("Not enough number of lectures and GPA!")
 
-print(total)
+elif x < 2.0 and y >= 47 :
+	print("Not enough GPA!")
+
+elif x >= 2.0 and y < 47 :
+	print("Not enough number of lectures!")
+
+else :
+	print("GRADUATED!!!")
