@@ -1,4 +1,4 @@
-x = int(input("Enter an integer: "))
+a = int(input("Enter an integer: "))
 
 for i in range(1, 11):
-	print(i*x)
+	print(str(a) + "x" + str(i) + "=" + str(i*a))
