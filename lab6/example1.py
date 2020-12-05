@@ -1,5 +1,10 @@
-l = [("Jon",15), ("Ned",45), ("Arya",9), ("Catelyn",44), ("Bran",10)]
-for elements in l:
-    name, age = elements
-    if age > 18:
-        print(name)
+email = "ceng113@example.com"
+your_email = input("Write email: ").lower()
+y_email = your_email.split("@")
+y_email[0] = y_email[0].replace(".", "")
+e = y_email[0] + "@" + y_email[1]
+
+if e == email:
+    print(True)
+else:
+    print(False)
