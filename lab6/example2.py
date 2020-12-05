@@ -1,4 +1,4 @@
-students = 2
+students = int(input("How many students?: "))
 average = []
 for i in range(students):
     m1 = float(input("Enter midterm 1 grade: "))
